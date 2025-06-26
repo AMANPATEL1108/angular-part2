@@ -1,0 +1,10 @@
+<h1>Car Detail ENter <h1>
+        <hr> Enter Belos Details
+        <hr> Car Name is : <label for="">{{carName  }}</label>
+        <hr>
+        <hr>
+        <input type="text" value="{{carName}}" placeholder="enter Car Name" #carNameField>
+        <button (click)="getCarName(carNameField.value)">Car Name</button>
+        <!-- <input type="text" #carNameInput placeholder="Enter car name" /> <button
+            (click)="getCarName(carNameInput.value)"> Car Name </button> -->
+        <button (click)="setcarName(carName)">Set CarName</button>
